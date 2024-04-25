@@ -1,0 +1,42 @@
+:root{
+--celadon: #74d3aeff;
+--taupe: #48392aff;
+--bistre: #43281cff;
+--champagne: #f6e7cbff;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;/*1rem=10px*/
+}
+.titulo {
+    text-align:center;
+    font-size: 3.8rem;
+    font-family: "italiana", sans-serif;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0; /*Top right down left, si los valores se repiten se puede dejar con los 2 primeros*/
+}
+.nav-bg{
+    background-color: var(--champagne);
+}
+.navegacion-principal{
+    padding: 1rem;
+    display:flex;
+    justify-content: space-around;
+}
+.navegacion-principal a{
+    color: var(--taupe);
+    text-decoration: none;
+}
+
+.footer_format{
+    background-color: var(--champagne);
+    color: var(--taupe);
+    padding: 1rem;
+    text-align: center;
+}
