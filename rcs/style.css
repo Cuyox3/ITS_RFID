@@ -2,7 +2,8 @@
 --celadon: #74d3aeff;
 --taupe: #48392aff;
 --champagne: #f6e7cbff;
---oscuro: #212121;
+--oscuro: #212121 ;
+--rojo:hwb(0 0% 0%) ;
 }
 
 html{
@@ -22,7 +23,7 @@ body{
     margin: 0 auto 0; /*Top right down left, si los valores se repiten se puede dejar con los 2 primeros*/
 }
 .nav-bg{
-    background-color: var(--champagne);
+    background-color: var(--);
 }
 .navegacion-principal{
     padding: 1rem;
