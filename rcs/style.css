@@ -23,7 +23,7 @@ body{
     margin: 0 auto 0; /*Top right down left, si los valores se repiten se puede dejar con los 2 primeros*/
 }
 .nav-bg{
-    background-color: var(--);
+    background-color: var(--rojo)
 }
 .navegacion-principal{
     padding: 1rem;
