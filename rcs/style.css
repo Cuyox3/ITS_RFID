@@ -17,7 +17,6 @@ body{
     font-size: 3.8rem;
     font-family: "italiana", sans-serif;
 }
-
 .contenedor{
     width: 120rem;
     margin: 0 auto 0; /*Top right down left, si los valores se repiten se puede dejar con los 2 primeros*/
