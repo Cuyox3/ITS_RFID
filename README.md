@@ -1,7 +1,5 @@
 # ITS_RFID
 
-## This page will be a page were ITS going to sell Hytera radio 
+### Edite el Index.html, agregué una hoja de reset.css para desactivar la hoja de estilo del agente de usuario (css predeterminado de cada navegador) y una imagen de ejemplo.
 
-### Only have a HTML, CSS and JS code 
-
-### Inspiration page : https://nanotecllc.co/
+### Es la primera parte de una plantilla de estructura, similar a la de la página inspo: https://nanotecllc.co/
