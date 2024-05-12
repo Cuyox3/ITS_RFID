@@ -1,3 +1,6 @@
+
+
+/* --------------------------------------------------------------------------------------------------------------*/
 :root{
 --celadon: #74d3aeff;
 --taupe: #48392aff;
@@ -21,20 +24,12 @@ body{
     width: 120rem;
     margin: 0 auto 0; /*Top right down left, si los valores se repiten se puede dejar con los 2 primeros*/
 }
-.nav-bg{
-    background-color: var(--rojo)
-}
+
 .navegacion-principal{
     padding: 1rem;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-@media (min-width: 480px){
-    .navegacion-principal{
-        flex-direction: row;
-    }
 }
 
 .navegacion-principal a{
