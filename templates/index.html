@@ -79,32 +79,46 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  
 
-<!-- Input Box
-    <section class="py-5 bg-info">
-        
-        <div class="row d-flex flex-column align-items-center">
-          
-          <p class="h1 text-light text-center">
-            Lorem ipsum dolor sit amet.
+    <!-- Brands -->
+    <section class="py-5 my-5">
+      <div class="row justify-content-center align-items-center g-2">
+        <div class="col">
+          <p class="my-0" style="font-family: 'Roboto', sans-serif; font-weight: 500; font-style: normal; line-height: 62px; font-size: 48px; text-align: center;">
+            Nuestras Marcas
           </p>
-
         </div>
-        <div class="row justify-content-center">
-
-          <div class="input-group my-3 px-5" style="width: 500px;">
-
-            <input type="text" class="form-control" placeholder="Lorem ipsum sit amet." aria-label="Lorem ipsum dolor sit amet." aria-describedby="button-addon2">
-
-            <button class="btn btn-dark" type="button" id="button-addon2">Button</button>
-
+      </div>
+      <div class="row">
+        <div class="logos">
+          <div class="logos-slide">
+            <img src="../rcs/img/accespro.webp" />
+            <img src="../rcs/img/alhua.webp" />
+            <img src="../rcs/img/aruba.webp" />
+            <img src="../rcs/img/axis.webp" />
+            <img src="../rcs/img/belden.webp" />
+            <img src="../rcs/img/boonedam.webp" />
+            <img src="../rcs/img/dormakaba.webp" />
+            <img src="../rcs/img/ekey.webp" />
+            <img src="../rcs/img/erreka.webp" />
+            <img src="../rcs/img/hikvision.webp" />
+            <img src="../rcs/img/honeywell.webp" />
+            <img src="../rcs/img/kantech.webp" />
+            <img src="../rcs/img/merik.webp" />
+            <img src="../rcs/img/rosslare.webp" />
+            <img src="../rcs/img/sclack.webp" />
+            <img src="../rcs/img/zkteco.webp" />
           </div>
-
         </div>
         
+        <script>
+          var copy = document.querySelector(".logos-slide").cloneNode(true);
+          document.querySelector(".logos").appendChild(copy);
+        </script>
+      </div>
     </section>
--->
+
     <!-- Footer -->
     <section class="bg-dark mt-5" style="border-radius: 7% 7% 0 0">
         <footer class="container">
@@ -219,13 +233,15 @@
               </div>
             </div>
 
-            <div class="row bg-transparent text-light">
-              <div class="row" style="margin-top: 60px;">
-                <h6 class="col text-end" style="margin-bottom:14px;"> 
+            <div class="row bg-transparent text-light" style="margin-top: 60px;">
+            
+                <p class="col text-end" style="margin-bottom: 20px; font-family: 'Red Hat Text', sans-serif;
+                font-optical-sizing: auto; font-weight: 400; font-style: normal; font-size: 15px; line-height: 23px;"> 
                   Copyright © ITS Seguridad 2022. Todos los derechos reservados.
-                </h6>
-              </div>
+                </p>
+
             </div>
+
         </footer>    
     </section> 
         
@@ -236,8 +252,32 @@
   </body>
 </html>
 
+<!-- Input Box
+        <section class="py-5 bg-info">
+            
+            <div class="row d-flex flex-column align-items-center">
+              
+              <p class="h1 text-light text-center">
+                Lorem ipsum dolor sit amet.
+              </p>
 
-<!-- 
+            </div>
+            <div class="row justify-content-center">
+
+              <div class="input-group my-3 px-5" style="width: 500px;">
+
+                <input type="text" class="form-control" placeholder="Lorem ipsum sit amet." aria-label="Lorem ipsum dolor sit amet." aria-describedby="button-addon2">
+
+                <button class="btn btn-dark" type="button" id="button-addon2">Button</button>
+
+              </div>
+
+            </div>
+            
+        </section>
+    -->
+
+<!-- Font Styles 
   
 .red-hat-text-<uniquifier> { // <weight>: Use a value from 300 to 700
   font-family: "Red Hat Text", sans-serif;
