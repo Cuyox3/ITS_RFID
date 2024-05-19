@@ -4,7 +4,126 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+#boton_rojo{
+    background-color: red;
+    min-width: 160px;
+    padding: 8px 0px;
+    border-radius: 15px 0 15px 0; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    font-style: normal; 
+    font-size: 16px; 
+    color: white; 
+    border-color: red; 
+    border-width: 4px;
+}
+#boton_transparente{
+    background-color: transparent; 
+    min-width: 160px; 
+    padding: 8px 0px;
+    border-radius: 15px 0 15px 0; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    font-style: normal; 
+    font-size: 16px; 
+    color: red; 
+    border-color: red; 
+    border-width: 4px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* Acordeon */
+ 
+  .accordion-container {
+    margin: 0 auto;
+    min-width: 330px;
+    overflow:hidden;
+  }
   
+  .main-item {
+    border-radius: 8px;
+    
+    padding: 12px;
+    display: flex;
+    cursor: pointer;
+    background: white;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    transition: all ease-in-out 0.25s;
+    max-width: 750px;
+    font-weight: 400; font-style: normal; font-size: 20px; line-height: 28px;
+
+  }
+   
+  .expand-icon {
+    margin-left: auto;
+  }
+
+  .main-item svg {
+    width: 30px;
+    height: 30px;
+    color: red;
+    transition: all ease-in-out 0.25s;
+  }
+    
+  .main-item:hover {
+    background-color: red;
+    color: white;
+  }
+ 
+  .main-item:hover svg {
+    color: white;
+  }
+  
+  .main-item--open {
+    border-radius: 8px 8px 0px 0px;
+    background-color: red;
+    transition: all 200ms;
+    color: white;
+  }
+    
+  .main-item--open svg {
+    color: white;
+  }
+  
+  .accordion-container > p {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 14px;
+    height: auto;
+    opacity: 0;
+    background-color:rgba(255, 0, 0, 0.329);
+    color: black;
+    visibility: hidden;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+    font-weight: 400; font-style: normal; font-size: 20px; line-height: 32px;
+    height: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .main-item--open + p {
+    visibility: visible;
+    opacity: 1;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main-item--open > .expand-icon {
+    transform: rotate(90deg);
+  }
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/* Slide Marcas */
 @keyframes slide {
 from {
     transform: translateX(0);
@@ -57,12 +176,15 @@ to {
 }
 
 /* --------------------------------------------------------------------------------------------------------------*/
+/* ¿? */
 :root{
 --celadon: #74d3aeff;
 --taupe: #48392aff;
 --champagne: #f6e7cbff;
 --oscuro: #212121 ;
 --rojo:hwb(0 0% 0%) ;
+--gray: #D5D4D5;
+
 }
 
 html{
